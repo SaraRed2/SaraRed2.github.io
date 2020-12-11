@@ -3,22 +3,17 @@
 
 <channel>
   <title>Gagine Kiflice</title>
-  <link></link>
+  <link>https://sarared2.github.io/</link>
   <description>Ljubav na prvi zalogaj</description>
   <item>
     <title>NOVO:Kiflice sa orasima</title>
-    <link></link>
+    <link>https://sarared2.github.io/pages/proizvodi.html</link>
     <description>Imamo novi recept za Vas, kiflice sa orasima</description>
   </item>
 	<item>
     <title>NOVO:Kiflice sa spanaćem</title>
-    <link></link>
+    <link>https://sarared2.github.io/pages/proizvodi.html</link>
     <description>Imamo novi recept za Vas, kiflice sa spanaćem</description>
-  </item>
-  <item>
-    <title>COVID 19</title>
-    <link></link>
-    <description>Mole se kupci da se pridžavaju mera</description>
   </item>
  
 </channel>
