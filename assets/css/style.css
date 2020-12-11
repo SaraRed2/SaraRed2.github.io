@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	box-sizing:border-box;
+}
+body{
+	background-color:#f9f8e3;
+	color:#2a1f19;
+}
+.cleaner{
+	clear:both;
+}
+header{
+	background-color:#d7c9a5;
+	width:100%;
+	display:block;
+	position:fixed;
+	top:0px;
+	padding:5px;
+	z-index:1;
+}
+h1{
+	display:block;
+	float:left;
+	margin:5px 10px;
+	padding:4px;
+	font-size:45px;
+	border:3px dashed #2a1f19;
+	border-radius:10px;
+}
+nav{
+	display:block;
+	width:60%;
+	float:right;
+}
+nav ul{
+	float:right;
+}
+nav ul li{
+	display:inline-block;
+	margin:23px 10px 23px 0px;
+	font-size:25px;
+}
+nav ul li a{
+	text-decoration:none;
+	color:#2a1f19;
+	border:3px dashed #2a1f19;
+	border-radius:10px;
+	padding:4px;
+}
+nav ul li a:hover{
+	color:#664c04;
+	border:3px dashed #664c04;
+	border-radius:10px;
+	padding:4px;
+}
+nav ul li.active a{
+	color:#664c04;
+	border-color:#664c04;
+}
+#cover{
+	width:100%;
+	height:500px;
+	background-image:url('../images/coffee.jpg');
+	background-size:cover;
+	background-position:center;
+	position:relative;
+	top:85px;
+	margin:0px auto;
+	z-index:0;
+}
+#naslov{
+	width:680px;
+	height:300px;
+	background-color:rgba(102, 76, 4, 0.4);
+	text-align: center;
+	padding:20px 20px;
+	position: absolute;
+	top:100px;
+	left:10%;
+	z-index:1;
+	border-radius:20px;
+}
+#naslov > h2{
+	font-size:100px;
+	font-style:italic;
+	color:#ffffff;
+}
+.slike{
+	display:block;
+	width:100%;
+	height:500px;
+	margin-top:85px;
+}
+.bck{
+	display:block;
+	background-color:#2a1f19;
+	width:40%;
+	height:400px;
+	margin:50px;
+	border-radius:30px;
+	position:absolute;
+	z-index:0;
+}
+.desno{
+	right:5px;
+}
+.tekstic{
+	display:block;
+	background-color:#ffffff;
+	width:100%;
+	height:400px;
+	padding:20px;
+	border:3px dashed #2a1f19;
+	border-radius:30px;
+	position:absolute;
+	top:30px;
+	z-index:1;
+	overflow:auto;
+}
+.levi{
+	text-align:left;
+	right:30px;
+}
+.desni{
+	text-align:right;
+	left:30px;
+}
+.slika{
+	display:block;
+	width:40%;
+	height:400px;
+	margin:50px;
+	position:absolute;
+}
+div.slika img{
+	width:100%;
+	border-radius:30px;
+	margin:30px 0px;
+}
+p{
+	font-size:22px;
+}
+footer{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	margin-top:30px;
+	width:100%;
+	background-color:#2a1f19;
+	align-items:center;
+	padding:15px;
+}
+footer p{
+	margin:5px;
+	display:inline-block;
+	font-size:30px;
+	color:#ffffff;
+}
+footer a{
+	color:#ffffff;
+	text-decoration:none;
+	font-size:40px;
+}
+footer a:hover{
+	font-size:50px;
+}
+#kontaktt{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	width:50%;
+	text-align:center;
+	align-items:center;
+	margin:20px;
+}
+#komentar{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	width:30%;
+	align-items:center;
+	margin:20px;
+}
+h3{
+	font-size:30px;
+	float:right;
+	color:#ffffff;
+}
+#ikonice{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	width:60%;
+	height:50px;
+	margin:5px;
+	padding:5px 0px;
+	text-align:center;
+}
+hr{
+	width:70%;
+	margin:10px;
+}
+form{
+	width:100%;
+}
+table{
+	border:0px;
+	width:100%;
+	height:100%;
+	font-size:20px;
+	text-align:center;
+}
+td {
+	width:30%;
+	padding:2px;
+	text-align:right;
+	color:#ffffff;
+}
+td.pisi{
+	width:70%;
+}
+td.gore{
+	padding-bottom:90px;	
+}
+td.dugme{
+	text-align:center;
+}
+textarea{
+	width:100%;
+	height:100px;
+	border-radius:10px;
+	margin:3px 0px;
+}
+input[type="text"], input[type="email"]{
+	width:100%;
+	border:2px solid #ffffff;
+	border-radius:10px;
+	color:#2a1f19;
+}
+input[type="submit"]{
+	background-color:transparent;
+	border:2px solid #ffffff;
+	color:#ffffff;
+	border-radius:5px;
+	width:50%;
+	text-align:center;
+	padding:3px;
+	font-size:25px;
+}
+input[type="submit"]:hover{
+	background-color:#ffffff;
+	border:2px solid #2a1f19;
+	color:#2a1f19;
+	border-radius:5px;
+	width:50%;
+	text-align:center;
+	padding:3px;
+	font-size:25px;
+}
+.galerija{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	width:100%;
+	margin:30px 0px;
+	padding:20px;
+}
+.polaroid{
+	width:30%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin:0px 1% 25px 1%;
+	border-radius:30px;
+}
+.opis{
+	text-align: center;
+	padding: 10px 20px;
+}
+div.polaroid img{
+	width:100%;
+	border-radius:30px 30px 0px 0px;
+}
+#naslov2{
+	display:block;
+	width:100%;
+	text-align:center;
+	margin-top:90px;
+}
+#naslov2 > h2{
+	color:#000000;
+	font-size:30px;
+}
+#autor{
+	width:30%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin:0px 1% 25px 1%;
+	border-radius:30px;
+}
+#autor > img{
+	width:100%;
+	border-radius:30px 30px 0px 0px;
+}
+#bio{
+	background-color:#ffffff;
+	width:70%;
+	margin:0px 30px;
+	padding:20px;
+	border:3px dashed #2a1f19;
+	border-radius:30px;
+}
+#bio > p{
+	font-style:italic;
+}
+#istorija{
+	background-color:#ffffff;
+	width:40%;
+	margin:0px 30px;
+	padding:20px;
+	border:3px dashed #2a1f19;
+	border-radius:30px;
+}
+
+
+
+
+
+
+
+
+

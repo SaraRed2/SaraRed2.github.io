@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Gagine Kiflice</title>
+  <link></link>
+  <description>Ljubav na prvi zalogaj</description>
+  <item>
+    <title>NOVO:Kiflice sa orasima</title>
+    <link></link>
+    <description>Imamo novi recept za Vas, kiflice sa orasima</description>
+  </item>
+	<item>
+    <title>NOVO:Kiflice sa spanaćem</title>
+    <link></link>
+    <description>Imamo novi recept za Vas, kiflice sa spanaćem</description>
+  </item>
+  <item>
+    <title>COVID 19</title>
+    <link></link>
+    <description>Mole se kupci da se pridžavaju mera</description>
+  </item>
+ 
+</channel>
+
+</rss>
