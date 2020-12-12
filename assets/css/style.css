@@ -328,6 +328,14 @@ div.polaroid img{
 	border:3px dashed #2a1f19;
 	border-radius:30px;
 }
+.naslov3{
+	float:left;
+	margin:1px;
+	font-size:25px;
+}
+.mail{
+	color:#664c04;
+}
 
 
 
