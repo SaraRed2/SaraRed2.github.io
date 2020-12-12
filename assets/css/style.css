@@ -336,6 +336,10 @@ div.polaroid img{
 	float:left;
 	font-size:27px;
 }
+.paragraf {
+	margin:1px;
+	width:100%;
+}
 .mail{
 	color:#664c04;
 	width:100%;
