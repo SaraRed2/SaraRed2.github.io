@@ -1,0 +1,100 @@
+@media 
+	only 
+		screen 
+			and 
+				(max-width 
+					&: 
+						1023px) 
+							#textbox{
+        right: 30% 
+#bio 
+	width: 70% 
+	margin-top: 40px 
+.skillz 
+	width: 20% 
+	width: 30% 
+	width: 40% 
+	height: 250px 
+	width: 70% 
+	height: 200px 
+	img 
+		width: 60% 
+		width: 70% 
+		width: 50% 
+} 
+	@media 
+		only 
+			screen 
+				and 
+					(max-width 
+						&: 
+							922px) 
+								#textbox{
+        right: 26% 
+							885px) 
+								h1{
+        display: none 
+							645px) 
+								nav li, .description{
+        font-size: 16px 
+							427px) 
+								*{
+        font-size: 12px 
+#three 
+	height: max-content 
+nav 
+	width: 100% 
+#textbox 
+	right: 24% 
+	right: 14% 
+	right: 8% 
+#two,#three 
+	display: flex 
+	flex-direction: column 
+	justify-content: space-between 
+	align-items: center 
+.overlay 
+	top: 5% 
+	left: 5% 
+	right: 5% 
+	bottom: 5% 
+	width: 90% 
+	height: 90% 
+	top: 10% 
+	left: 10% 
+	right: 10% 
+	bottom: 10% 
+	width: 80% 
+	height: 80% 
+	top: 15% 
+	left: 15% 
+	right: 15% 
+	bottom: 15% 
+	width: 70% 
+	height: 70% 
+.polaroid 
+	width: 80% 
+	&:hover 
+		width: 83% 
+.service-desc 
+	width: 60% 
+#abt 
+	display: flex 
+	flex-direction: column 
+	justify-content: space-between 
+	align-items: center 
+#form 
+	width: 80% 
+#five 
+	display: flex 
+	flex-direction: column 
+	justify-content: space-between 
+	align-items: center 
+.description 
+	font-size: 12px 
+h2 
+	font-size: 20px 
+h3 
+	font-size: 16px 
+#bio, #abt-img, #form 
+	width: 90% 
