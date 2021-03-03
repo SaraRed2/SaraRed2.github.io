@@ -60,7 +60,7 @@
     }
 }
 @media only screen and (max-width: 645px){
-    nav li, .description{
+    nav>ul>li>a, .description{
         font-size: 16px;
     }
     #textbox{
@@ -92,7 +92,7 @@
     }
 }
 @media only screen and (max-width: 427px){
-    body, nav, p, .description{
+    body, nav>ul>li>a, p, .description{
         font-size: 12px;
     }
     #textbox{
