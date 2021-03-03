@@ -117,11 +117,13 @@ h3{
     border-radius: 20px;
 }
 #ikonice a{
-    font-size: 28px;
     color: #b4c6f0;
 }
 #ikonice a:hover{
     color:#1f003b;
+}
+#ikonice a i{
+    font-size: 24px;
 }
 .fontt{
     font-family: 'Righteous', cursive;
@@ -261,9 +263,11 @@ footer{
     padding: 5px;
 }
 #icons a{
-	font-size: 24px;
     color:#b4c6f0;
 }
 #icons a:hover{
     color: #1f003b;
+}
+#icons a i{
+	font-size: 22px;
 }
