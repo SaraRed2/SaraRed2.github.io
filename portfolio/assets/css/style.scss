@@ -9,7 +9,7 @@
 						font-family: 'Righteous', cursive 
 						font-size: 18px 
 						-webkit-box-sizing: border-box 
-						-moz-box-sizing: border-box 
+						-moz-box-sizing: border box 
 						box-sizing: border-box 
 body 
 	background-color: #b4c6f0 
@@ -21,7 +21,7 @@ a
 	width: 100% 
 #abt 
 	width: 80% 
-#abt,#five,#three,#twoo 
+#abt,#five,#three,#two 
 	padding: 0px 10px 30px 10px 
 .hline 
 	display: block 
@@ -101,7 +101,7 @@ h3
 	border-radius: 20px 
 #ikonice 
 	a 
-		font-size: 20px 
+		font-size: 28px 
 		color: #b4c6f0 
 		&:hover 
 			color: #1f003b 
@@ -176,7 +176,7 @@ h3
 	padding: 20px 
 #form 
 	width: 60% 
-	margin: 0px auto 
+	margin: 10px auto 
 	padding: 10px 
 	background-color: rgba(31, 0, 59, 0.7) 
 	border-radius: 20px 
@@ -188,7 +188,7 @@ h3
 		flex-flow: column 
 		-ms-flex-wrap: wrap 
 		flex-wrap: wrap 
-		-ms-flex-pack: center 
+		-ms-flex-pack: distribute 
 		justify-content: center 
 		align-items: center 
 		label 
@@ -217,9 +217,9 @@ footer
 	padding: 10px 
 #icons 
 	width: 40% 
-	padding: 15px 
-	font-size: 20px 
+	padding: 5px 
 	a 
+		font-size: 24px 
 		color: #b4c6f0 
 		&:hover 
 			color: #1f003b 

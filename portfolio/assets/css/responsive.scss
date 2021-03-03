@@ -16,7 +16,7 @@
 	width: 40% 
 	height: 250px 
 	width: 70% 
-	height: 200px 
+	height: 220px 
 	img 
 		width: 60% 
 		width: 70% 
@@ -32,13 +32,13 @@
 								#textbox{
         right: 26% 
 							885px) 
-								h1{
+								#logo{
         display: none 
 							645px) 
 								nav li, .description{
         font-size: 16px 
 							427px) 
-								*{
+								body, p, .description{
         font-size: 12px 
 #three 
 	height: max-content 
@@ -66,12 +66,6 @@ nav
 	bottom: 10% 
 	width: 80% 
 	height: 80% 
-	top: 15% 
-	left: 15% 
-	right: 15% 
-	bottom: 15% 
-	width: 70% 
-	height: 70% 
 .polaroid 
 	width: 80% 
 	&:hover 
@@ -90,11 +84,9 @@ nav
 	flex-direction: column 
 	justify-content: space-between 
 	align-items: center 
-.description 
-	font-size: 12px 
-h2 
+h2,h3 
 	font-size: 20px 
-h3 
-	font-size: 16px 
+.heading 
+	font-size: 19px 
 #bio, #abt-img, #form 
 	width: 90% 

@@ -26,7 +26,7 @@
     }
 }
 @media only screen and (max-width: 885px){
-    h1{
+    #logo{
         display: none;
     }
     nav{
@@ -92,7 +92,7 @@
     }
 }
 @media only screen and (max-width: 427px){
-    *{
+    body, p, .description{
         font-size: 12px;
     }
     #textbox{
@@ -104,26 +104,15 @@
         justify-content: space-between;
         align-items: center;
     }
-    .description{
-        font-size: 12px;
-    }
-    h2{
+    h2,h3{
         font-size: 20px;
     }
-    h3{
-        font-size: 16px;
-    }
-    .overlay{
-        top: 15%;
-        left: 15%;
-        right: 15%;
-        bottom: 15%;
-        width: 70%;
-        height: 70%;
-    }
+	.heading{
+		font-size:19px;
+	}
     .skillz{
         width: 70%;
-        height: 200px;
+        height: 220px;
     }
     .skillz img{
         width: 50%;
