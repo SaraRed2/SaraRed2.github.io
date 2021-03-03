@@ -92,7 +92,7 @@
     }
 }
 @media only screen and (max-width: 427px){
-    body, p, .description{
+    body, nav, p, .description{
         font-size: 12px;
     }
     #textbox{
