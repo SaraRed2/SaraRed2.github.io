@@ -82,6 +82,7 @@
     }
     .skillz{
         width: 40%;
+        height: 250px;
     }
     .skillz img{
         width: 70%;
@@ -122,7 +123,7 @@
     }
     .skillz{
         width: 70%;
-        margin:15px;
+        height: 200px;
     }
     .skillz img{
         width: 50%;
