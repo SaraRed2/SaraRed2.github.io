@@ -34,7 +34,10 @@ header i {
     padding-bottom: 0;
 }
 .active-link{
-    border-bottom: darkcyan 1px solid;
+    border-bottom: aquamarine 1px solid;
+}
+.active-link:hover{
+    border-bottom: rgb(156, 199, 240) 1px solid;
 }
 .nav-btn-menu{
     color: aquamarine;
@@ -73,6 +76,15 @@ footer i {
     background-color: aquamarine;
     color: darkcyan;
 }
+#info2{
+    text-align: center;
+    border: darkcyan;
+    background-color: white;
+    color: darkcyan;
+}
 .bg-blur{
     background-image: radial-gradient(rgba(0,0,0,.3) 30%,transparent 70%);
+}
+.mgt{
+    margin-top: 61.6px;
 }
