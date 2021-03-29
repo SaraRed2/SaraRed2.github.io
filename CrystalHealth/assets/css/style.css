@@ -17,6 +17,9 @@
 ::-webkit-scrollbar-thumb:hover {
     background: darkcyan; 
 }
+#bgrc{
+    background-color: rgb(156, 199, 240);
+}
 a{
     text-decoration: none;
     color: aquamarine;
