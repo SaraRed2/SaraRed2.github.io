@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: aquamarine; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: darkcyan; 
+}
+a{
+    text-decoration: none;
+    color: aquamarine;
+}
+a:hover{
+    color: rgb(156, 199, 240);
+}
+header, footer{
+    background: rgba(0,0,0,.5);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+}
+header i {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.active-link{
+    border-bottom: darkcyan 1px solid;
+}
+.nav-btn-menu{
+    color: aquamarine;
+    font-size: 30px;
+}
+.nav-btn-menu:hover{
+    color:rgb(156, 199, 240) ;
+}
+.card-responsive{
+    width: 100%;
+}
+.card-btn{
+    background-color: aquamarine;
+    color: darkcyan;
+}
+.card-btn:hover{
+    background-color: darkcyan;
+    color:aquamarine;
+}
+.foot-holder{
+    width: 250px;
+}
+footer p{
+    margin: auto;
+    color: aquamarine;
+    text-align: center;
+    font-size: 13px;
+}
+footer i {
+    font-size: 25px;
+    margin: 0px 5px;
+}
+#info{
+    text-align: center;
+    border: darkcyan;
+    background-color: aquamarine;
+    color: darkcyan;
+}
+.bg-blur{
+    background-image: radial-gradient(rgba(0,0,0,.3) 30%,transparent 70%);
+}
