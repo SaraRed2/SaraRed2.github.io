@@ -82,10 +82,18 @@ footer i {
 #info3{
     text-align: center;
 }
+#info4{
+    width: 80%;
+    background-color: rgba(0,0,0,.5);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    color: white;
+}
 hr{
     width: 70%;
     border-top: transparent;
-    border-bottom: darkcyan 2px ridge;
+    border-bottom: darkcyan 2px;
+    border-style: ridge;
     margin: 30px auto;
 }
 .bg-blur{
@@ -104,4 +112,33 @@ hr{
 .logo-img > img{
     height: 100%;
     margin: 0;
+}
+#cyann{
+    background-image: url('../img/authorbg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.aimg{
+    width: 100%;
+}
+.ptf{
+    color: aquamarine;
+}
+.ptf:hover{
+    color: rgb(156, 199, 240);
+    text-decoration: none;
+}
+textarea{
+    width: 100%;
+}
+input[type="email"], textarea{
+    width: 100%;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: white;
+    color: darkcyan;
+    border: darkcyan 1px solid;
+}
+.big{
+    font-size: 20px;
 }
