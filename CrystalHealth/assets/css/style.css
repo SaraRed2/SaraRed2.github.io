@@ -32,10 +32,6 @@ header, footer{
     -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
 }
-header i {
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
 .active-link{
     border-bottom: aquamarine 1px solid;
 }
@@ -75,7 +71,7 @@ footer i {
 }
 #info, #info2{
     text-align: center;
-    border: darkcyan;
+    border: darkcyan 1px solid;
     background-color: aquamarine;
     color: darkcyan;
 }
@@ -100,4 +96,7 @@ hr{
 }
 .mgt{
     margin-top: 61.6px;
+}
+.hght{
+    height: 100%;
 }
