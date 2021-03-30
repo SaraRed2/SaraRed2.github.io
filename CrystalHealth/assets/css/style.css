@@ -73,17 +73,27 @@ footer i {
     font-size: 25px;
     margin: 0px 5px;
 }
-#info{
+#info, #info2{
     text-align: center;
     border: darkcyan;
     background-color: aquamarine;
     color: darkcyan;
 }
 #info2{
-    text-align: center;
-    border: darkcyan;
     background-color: white;
-    color: darkcyan;
+    width: 80%;
+}
+#info3{
+    text-align: center;
+    border-top: darkcyan 1px solid;
+    border-left: darkcyan 1px solid;
+    border-right: darkcyan 1px solid;
+}
+hr{
+    width: 70%;
+    border-top: transparent;
+    border-bottom: darkcyan 2px solid;
+    margin: 30px auto;
 }
 .bg-blur{
     background-image: radial-gradient(rgba(0,0,0,.3) 30%,transparent 70%);
