@@ -81,14 +81,11 @@ footer i {
 }
 #info3{
     text-align: center;
-    border-top: darkcyan 1px solid;
-    border-left: darkcyan 1px solid;
-    border-right: darkcyan 1px solid;
 }
 hr{
     width: 70%;
     border-top: transparent;
-    border-bottom: darkcyan 2px solid;
+    border-bottom: darkcyan 2px ridge;
     margin: 30px auto;
 }
 .bg-blur{
