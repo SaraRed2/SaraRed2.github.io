@@ -97,3 +97,11 @@ hr{
 .hght{
     height: 100%;
 }
+.logo-img{
+    height: 35px;
+    width: 35px;
+}
+.logo-img > img{
+    height: 100%;
+    margin: 0 auto;
+}
