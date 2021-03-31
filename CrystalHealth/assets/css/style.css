@@ -92,8 +92,7 @@ footer i {
 hr{
     width: 70%;
     border-top: transparent;
-    border-bottom: darkcyan 2px;
-    border-style: ridge;
+    border-bottom: darkcyan 2px solid;
     margin: 30px auto;
 }
 .bg-blur{
