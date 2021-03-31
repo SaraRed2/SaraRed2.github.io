@@ -146,4 +146,11 @@ input[type="email"], textarea{
     .big{
         font-size: 14px;
     }
+    #info4{
+        width:90%;
+    }
+}
+.modal-content{
+    background-color: whitesmoke;
+    color: darkcyan;
 }
