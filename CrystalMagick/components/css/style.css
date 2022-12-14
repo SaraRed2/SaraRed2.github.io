@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+/* scrollbar  */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #c687ed; 
+}
+::-webkit-scrollbar-thumb {
+    background: #492466; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #1b0c24; 
+}
+/* logo */
+.logo{
+    height: 40px;
+}
+.logo-text{
+    font-size: 20px;
+    font-weight: 400;
+}
+/* linkovi */
+a{
+    text-decoration: none!important;
+    color: #ffffff!important;
+}
+a:hover{
+    color: #c793e6!important;
+}
+/* slajder */
+#imgSlider div img{
+    width: 100%;
+}
+.hiddenSlide{
+    display: none;
+}
+.activeSlide{
+    display: block;
+}
+/* header */
+header{
+    transition: 1s;
+    padding: 10px;
+}
+header a{
+    transition: 1s;
+}
+header a:hover{
+    transition: 0.2s;
+}
+.header-bg{
+    padding: 0px;
+    transition: 1s;
+    background: rgba( 73, 36, 102, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+}
+.header-text{
+    color: #0c0213!important;
+    font-weight: 450!important;
+    transition: 2s;
+}
+/* kartice za kristale */
+.transitionCrystalWrap{
+    transition: 2s;
+}
+.btn-lilac{
+    background-color: #c687ed!important;
+    color: #1b0c24!important;
+    transition: 1s!important;
+}
+.btn-lilac:hover{
+    transition: 1s!important;
+    background-color: #1b0c24!important;
+    color: #ffffff!important;
+}
+.border-lilac{
+    border-color: #c687ed!important;
+}
