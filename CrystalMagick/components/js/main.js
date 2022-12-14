@@ -14,7 +14,7 @@ window.onload = function(){
     let parentDiv = document.querySelector("#crystal-cards");
     let CrystalsDiv = "";
     for (let i = 0; i < 3; i++) {
-        CrystalsDiv += `<div class="row flex align-content-between" id="wrapCrystalDiv${i}"><h2>Jebi se</h2></div>`;
+        CrystalsDiv += `<div class="row flex align-content-between" id="wrapCrystalDiv${i}"></div>`;
     }
     parentDiv.innerHTML = CrystalsDiv;
     crystalCards(0);
