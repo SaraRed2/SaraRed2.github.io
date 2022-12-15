@@ -60,7 +60,7 @@ function functionSlider(){
 }
 
 var arrCrystalName = ["Amethyst","Citrine","Jade","Clear Quartz","Jasper","Malachite","Moonstone","Pyrite","Rose Quartz","Ruby","Sapphire","Moldavite"];
-var arrCrystalImg = ["amethyst1.jpg","citrine1.jpg","jade1.jpg","clearquartz1.jpg","Jasper1.jpg","malachite1.jpg","moonstone1.jpg","pyrite1.jpg","rosequartz1.jpg","ruby1.jpg","sapphire1.jpg","moldavite1.jpg"];
+var arrCrystalImg = ["amethyst1.jpg","citrine1.jpg","jade1.jpg","clearquartz1.jpg","jasper1.jpg","malachite1.jpg","moonstone1.jpg","pyrite1.jpg","rosequartz1.jpg","ruby1.jpg","sapphire1.jpg","moldavite1.jpg"];
 
 // Funkcija za ispis svih kartica
 function crystalCards(num){
