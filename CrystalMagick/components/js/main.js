@@ -42,7 +42,7 @@ window.onload = function(){
         }
     });
     // Pozivanje funkcija
-    functionSlider();
+    slider();
     crystalCards(0);
     crystalCards(1);
     crystalCards(2);
@@ -50,13 +50,19 @@ window.onload = function(){
 }
 
 // Funkcija slajder
+var sliderDiv = document.querySelector("#imgSlider");
 var timer;
-function functionSlider(){
-    let current = document.querySelector(".activeSlide");
-    let next = (current.nextElementSibling) ? current.nextElementSibling : current.parentElement.firstElementChild;
-    current.classList.remove("activeSlide");
-    next.classList.add("activeSlide");
-    timer = setTimeout(functionSlider, 3000);
+let broj = 1;
+function slider() {
+    if(broj < 6){ 
+        sliderDiv.style.backgroundImage = `url(../../assets/img/slider${broj}.jpg)`;
+        broj++;
+    }
+    else{
+        sliderDiv.style.backgroundImage = `url(../../assets/img/slider1.jpg)`;
+        broj = 2;
+    }
+    timer = setTimeout(slider,3000);
 }
 
 var arrCrystalName = ["Amethyst","Citrine","Jade","Clear Quartz","Jasper","Malachite","Moonstone","Pyrite","Rose Quartz","Ruby","Sapphire","Moldavite"];
@@ -491,16 +497,9 @@ $(document).ready(function(){
             $("#mini-menu ul li a").removeClass("header-text");
         }
     });
-  // responsive nav pozadina kada je header providan
-    $("#menu-btn").click(function(){
-        $("#mini-menu").toggleClass("hidden");
-        $(window).scroll(function(){
-            if($(window).scrollTop() < 80){
-                $("#mini-menu").addClass("header-bg");
-            }
-            else{
-                $("#mini-menu").removeClass("header-bg");
-            }
-        });
-    });
+  // responsive nav
+  $("#mini-menu").hide();
+  $("#menu-btn").click(function(){
+    $("#mini-menu").slideToggle("slow");
+  });
 });
