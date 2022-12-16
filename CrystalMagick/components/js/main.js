@@ -55,11 +55,11 @@ var timer;
 let broj = 1;
 function slider() {
     if(broj < 6){ 
-        sliderDiv.style.backgroundImage = `url("../../assets/img/slider${broj}.jpg")`;
+        sliderDiv.style.backgroundImage = `url("assets/img/slider${broj}.jpg")`;
         broj++;
     }
     else{
-        sliderDiv.style.backgroundImage = 'url("../../assets/img/slider1.jpg")';
+        sliderDiv.style.backgroundImage = 'url("assets/img/slider1.jpg")';
         broj = 2;
     }
     timer = setTimeout(slider,3000);
