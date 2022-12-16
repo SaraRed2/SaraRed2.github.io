@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Crystal Magick, where you can learn about your favorite crystals and their properties." />
+    <meta name="keywords" content="Crystals, magick, magic, crystal, properties, healing, jasper, malachite, ruby, rose quartz, moldavite, sapphire, moonstone, pyrite" />
+    <meta name="author" content="Sara Djurdjevic" />
+    <link rel="icon" href="assets/logo/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="components/css/style.css" type="text/css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"/>
+    <script src="https://kit.fontawesome.com/24b4db64ab.js" crossorigin="anonymous"></script>
+    <title>Crystal Magick</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="container-fluid fixed-top px-5">
+        <div id="menu" class="row">
+            <div class="align-content-between mt-2 col-12 row">
+                <div class="col-lg-4 col-11 row">
+                    <div class="me-0 p-0 col-lg-4 col-2 d-flex justify-content-end">
+                        <img src="assets/logo/logo2.svg" class="logo" alt="logo"/>
+                    </div>
+                    <div class="ms-0 ps-0 pt-2 col-lg-8 col-10" id="logo-textic">
+                        <p class="logo-text"><a class="link" href="https://sarared2.github.io/CrystalMagick/index.html">Crystal Magick</a></p>
+                    </div>
+                </div>
+                <nav class="col-lg-8 col-1">
+                    <div class="flex" id="nav-menu">
+                        <!-- Menu -->
+                    </div>
+                    
+                    <div class=" pt-2" id="hide-menu">
+                        <a id="menu-btn">
+                            <!-- Hamburger -->
+                            <i class="fa-solid fa-bars fa-2xl mt-1" ></i>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="m-0 p-0 rounded" id="mini-menu">
+            <!-- Responsive menu -->
+        </div>
+    </header>
+    <!-- Home -->
+    <div id="Home"></div>
+    <!-- Slider -->
+    <div class="container-fluid" id="imgSlider"></div>
+    <!-- Crystal magick intro -->
+    <div class="container-fluid text-center py-3">
+        <div class="stylizing">
+            <div>
+                <h1 class="mb-2">
+                    Crystal Magick
+                </h1>
+            </div>
+            <div>
+                <p>
+                    Crystal Magick is a new place where you can learn all about crystals and their properties. Crystals are said to have a stable and unchanging energy pattern, each with a unique frequency and energy field, or resonance that gives them special properties. As a result, they act like tuning forks, helping bring harmony to the "very unstable energy field of the human body.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Crystals -->
+    <div class="container-fluid pt-2" id="Crystals">
+        <div class="text-center">
+            <h1>Crystals</h1>
+        </div>
+        <div class="text-center p-4">
+            <p>
+                In the world of alternative medicine, crystals are said to have healing properties that–when holding them or placing them on your body–can promote physical, emotional and spiritual healing. Crystals are used to interact with your body’s energy field, also known as an individual’s chakra.
+                The proposed healing benefits of crystals predominantly surround areas of mental wellbeing; including feelings of increased tranquility, positivity and focus, as well as enhanced immunity and pain relief.
+                Individual crystals are also known to have their own special energies that align to different areas of your life, with their shape and colour - as well as their type - affecting their influence.
+            </p>
+        </div>
+    </div>
+    <div class="container-fluid pt-2 stylizing-big" id="crystal-cards">
+        <!-- Crystal cards -->
+    </div>
+    <!-- Show more/less button -->
+    <div class="container-fluid pt-1">
+        <div class="d-flex justify-content-center m-2 p-4">
+            <input type="button" value="Explore more" id="hide-crystal-cards" class="btn btn-lilac"/>
+        </div>
+    </div>
+    <!-- Workshop -->
+    <div class="container-fluid p-3 stylizing-big" id="Workshop">
+        <div class="text-center mb-3 pb-3">
+            <h2>Workshop</h2>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center workshop-img mr-3">
+            </div>
+            <div class="col-12 col-lg-4 text-start">
+                <h4>If you want to experience a good time and connect with people keep reading</h4>
+                <p>Our workshop is something we've been trying to introduce for a while. This is a great opportunity for you to take a break from everything that's bothering you and connect with others and even learn something more.</p>
+                <p>We're offering you a full day of events, from purely informational lectures on crystals, to meditations and spiritual talks, to making your own crystal jewlery to just chilling with others while drinking homemade tea.</p>
+                <p>The full price of the workshop will be announced once all the preparations are done. For those who would like to sign up early, they can, just make sure to click the button below to fill out the form.</p>
+                <p>Note that since this is still in the developement process we won't be disclosing any further information untill all the preparations are done. If you have any further questions feel free to ask us, we will get in touch with you as soon as possible.</p>
+                <div id="workshop-button">
+                    <input type="button" value="Sign up for the workshop" id="workshop-btn" class="btn" onclick="workshopForm()"/>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center workshop-img ml-3">
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div class="container-fluid" id="Contact">
+        <div class="text-center m-4 p-3">
+            <h2>Have any questions? Feel free to contact us.</h2>
+        </div>
+        <div id="div-form">
+            <!-- Form -->
+        </div>
+    </div>
+    <!-- Autor -->
+    <div class="container-fluid mt-2" id="Author">
+        <div class="stylizing">
+            <div class="text-center p-3">
+                <h2>Author</h2>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="slicica col-12 col-lg-5 d-flex justify-content-center self-align-center mb-3">
+                    <img src="assets/img/author1.jpg" alt="Author"/>
+                </div>
+                <div class="tekstic col-12  col-lg-5 text-center">
+                    <h4 class="mb-2 pb-2">Sara Djurdjevic 18/20</h4>
+                    <p class="mt-2 p-2">
+                        My name is Sara and I am 21 years old. I was born and raised in Belgrade. I've always been interested in how things work, from ordinary children's toy cars to complex machines today. Knowing that the future is in technology, I was most interested in computers and the entire architecture of their work. Following my curiosity I enrolled in and graduated from the "Nikola Tesla" high school here in Belgrade. After graduating from high school, I acquired knowledge in the field of computer network administration, so I decided to continue on that path and enroll in the ICT College. Although I'm mostly intrested in network administration I am, as of this year, freelancing in the field of web and graphic design trying my best to improve my work and skills each day.
+                    </p>
+                    <p class="portfolio">Here you can check out my<a href="https://sarared2.github.io/portfolio" class="m-1 ptf" target="_blank">portfolio.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="container-fluid d-flex justify-content-around align-items-center px-4 py-2 m-0 header-bg">
+        <div class="socials flex text-center">
+            <p class="mb-0">Socials:</p>
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/login/" target="_blank">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a href="https://twitter.com/i/flow/login" target="_blank">
+                <i class="fa-brands fa-square-twitter"></i>
+            </a>
+        </div>
+        <div class="text-center m-2 foot-holder">
+          <p>All rights reserved © ICT College 2021</p>
+        </div>
+        <div class="flex text-center">
+            <p class="mb-0">Documentation</p>
+            <a href="components/documentation.pdf" target="_blank"><i class="fa-regular fa-file-lines"></i></a>
+            <a href="components/xml/sitemap.xml" target="_blank"><i class="fa-solid fa-sitemap"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="components/js/main.js" type="text/javascript"></script>
+    <script src="components/js/crystal.js"></script>
+</body>
+</html>
