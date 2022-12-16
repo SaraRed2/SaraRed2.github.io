@@ -59,7 +59,7 @@ function slider() {
         broj++;
     }
     else{
-        sliderDiv.style.backgroundImage = `url("../../assets/img/slider1.jpg")`;
+        sliderDiv.style.backgroundImage = 'url("../../assets/img/slider1.jpg")';
         broj = 2;
     }
     timer = setTimeout(slider,3000);
