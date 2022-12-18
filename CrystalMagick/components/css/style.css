@@ -180,7 +180,7 @@ header{
     border-radius: 25px;
 }
 /* responsive */
-@media only screen and (max-width:840px){
+@media only screen and (max-width:767px){
     #hide-menu{
         display: block!important;
     }
@@ -195,5 +195,22 @@ header{
     }
     #imgSlider{
         height: 50vh;
+    }
+    #form-contact{
+        width: 80%!important;
+    }
+}
+@media only screen and (max-width:560px){
+    footer div{
+        width:100%;
+    }
+}
+@media only screen and (max-width:420px){
+    .slicica{
+        height: 90vw;
+    }
+    
+    #form-contact{
+        width: 90%!important;
     }
 }
